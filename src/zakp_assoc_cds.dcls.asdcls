@@ -1,0 +1,23 @@
+@EndUserText.label: 'Access control for ZAKP_DCL'
+@MappingRole: true
+define role ZAKP_ASSOC_CDS {
+    grant
+        select
+            on
+                ZAKP_ASSOC_CDS
+                    where
+                        CarrierId = 'SQ';
+                        
+}
+
+//
+//define role ZAKP_ASSOC_CDS {
+//    grant
+//        select
+//            on
+//                ZAKP_ASSOC_CDS
+//                    where
+//                        ( entity_name1 , entity_name2 ) = aspect pfcg_auth( authorizartion_object ,
+//authorization_field1 , authorization_field2 , filter_field);
+//                        
+//}
