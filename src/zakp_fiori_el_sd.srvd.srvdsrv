@@ -1,0 +1,6 @@
+@EndUserText.label: 'SD for fioiri ele'
+define service ZAKP_FIORI_EL_SD {
+  expose ZAKP_FIORI_ELEMENTS;
+  expose ZAKP_FIORI_VH_CARRIER;
+  expose ZAKP_FIORI_FLIGHT;
+}
